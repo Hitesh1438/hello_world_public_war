@@ -17,7 +17,7 @@
       url: "https://hitesh1438.jfrog.io/artifactory/app_war/webapp/webapp-{{ build_number }}.war"
       dest: /home/ubuntu/sourcefile/webapp.war
       username: admin  
-      password: Ht1438@00
+      password: Ht1438#00
 
   - name: create directory with a date in name
     file: 
